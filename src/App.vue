@@ -23,6 +23,7 @@
                         'Ordered materials for projects weekly.'
                     ]"/>
         </div>
+
         <h2>Notable Projects</h2>
         <div class="container">
             <notable-project title="Employee Directory"
@@ -36,15 +37,36 @@
                              description="The Department Directory is the counterpart to the Employee Directory, meant to assist users with finding the correct department pertaining to a specific topic they need information about at Kalamazoo Valley."
                              link="https://www.nfrost.dev/department-directory"/>
         </div>
+
+        <h2>Skill Set</h2>
+        <div class="container container--skillset">
+            <skill-set title="Languages"
+                       :skills="['JavaScript', 'PHP', 'C#', 'HTML', 'CSS', 'SCSS/SASS', 'SQL']"/>
+            <skill-set title="Deployment"
+                       :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google App Engine']"/>
+            <skill-set title="Frameworks"
+                       :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Symfony', 'Svelte', 'React']"/>
+            <skill-set title="CMS"
+                       :skills="['Prismic', 'Cockpit', 'WordPress', 'Drupal']"/>
+            <skill-set title="Data Analysis"
+                       :skills="['Google Analytics', 'SEO', 'Database Normalization', 'Design Documentation']"/>
+            <skill-set title="Applications"
+                       :skills="['JetBrains IDEs', 'Adobe Photoshop', 'Adobe Illustrator', 'Microsoft Office']"/>
+            <skill-set title="Dependencies"
+                       :skills="['Git Submodules', 'Composer', 'NuGet', 'NPM']"/>
+            <skill-set title="Programming"
+                       :skills="['Paradigm Agnostic', 'Accepting of Criticism', 'Collaboration Desired', 'Code Reviews Desired']"/>
+        </div>
     </div>
 </template>
 
 <script>
     import Experience from "./components/Experience";
     import NotableProject from "./components/NotableProject";
+    import SkillSet from "./components/SkillSet";
 
     export default {
-        components: {NotableProject, Experience}
+        components: {SkillSet, NotableProject, Experience}
     }
 </script>
 
@@ -86,5 +108,9 @@
         grid-gap: 2rem;
         padding: 0 2rem 2rem;
         border-bottom: 0.0625rem solid $primary;
+
+        &--skillset {
+            grid-template-columns: repeat(4, 1fr);
+        }
     }
 </style>
