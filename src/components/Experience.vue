@@ -1,7 +1,7 @@
 <template>
     <div>
         <h3>{{ company }}</h3>
-        <div class="job-title">{{ job }}</div>
+        <div class="job-title">{{ job }} | {{ startDate }} - {{ endDate }}</div>
         <ul>
             <li v-for="(responsibility, index) in responsibilities" :key="index">
                 » {{ responsibility }}

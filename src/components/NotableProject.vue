@@ -4,7 +4,7 @@
         <div class="client">{{ client }}</div>
         <div class="languages">{{ languages }}</div>
         <p class="description">{{ description }}</p>
-        <div class="more-info"><a :href="link">{{ link }}</a></div>
+        <div class="more-info"><a :href="link" target="_blank" rel="noopener">{{ link }}</a></div>
     </div>
 </template>
 
