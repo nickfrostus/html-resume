@@ -1,5 +1,7 @@
 <template>
     <div id="app">
+        <page-header/>
+
         <h2>Experience</h2>
         <div class="container container--experience">
             <experience company="Kalamazoo Valley Community College"
@@ -41,11 +43,11 @@
         <h2>Skill Set</h2>
         <div class="container container--skillset">
             <skill-set title="Languages"
-                       :skills="['JavaScript', 'PHP', 'C#', 'HTML', 'CSS', 'SCSS/SASS', 'SQL']"/>
+                       :skills="['JavaScript', 'PHP', 'C#', 'HTML', 'SCSS/SASS', 'SQL']"/>
             <skill-set title="Deployment"
                        :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google App Engine']"/>
             <skill-set title="Frameworks"
-                       :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Symfony', 'Svelte', 'React']"/>
+                       :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Svelte', 'React']"/>
             <skill-set title="CMS"
                        :skills="['Prismic', 'Cockpit', 'WordPress', 'Drupal']"/>
             <skill-set title="Data Analysis"
@@ -57,16 +59,28 @@
             <skill-set title="Programming"
                        :skills="['Paradigm Agnostic', 'Accepting of Criticism', 'Collaboration Desired', 'Code Reviews Desired']"/>
         </div>
+
+        <h2>Education</h2>
+        <div class="container">
+            <education title="Visual Communications"
+                       type="Associate of Applied Science"
+                       institution="ITT Technical Institute"/>
+            <education title="Vue JS 2 - The Complete Guide"
+                       type="Online Course"
+                       institution="Udemy"/>
+        </div>
     </div>
 </template>
 
 <script>
+    import PageHeader from './components/PageHeader'
     import Experience from "./components/Experience";
     import NotableProject from "./components/NotableProject";
     import SkillSet from "./components/SkillSet";
+    import Education from "./components/Education";
 
     export default {
-        components: {SkillSet, NotableProject, Experience}
+        components: {PageHeader, Education, SkillSet, NotableProject, Experience}
     }
 </script>
 
@@ -79,13 +93,16 @@
         font-family: "Titillium Web", sans-serif;
         background-color: white;
         font-weight: 300;
+        display: flex;
+        flex-direction: column;
     }
 
     h2 {
         font-size: 150%;
         color: $primary;
         font-weight: bold;
-        padding: 2rem 2rem 1rem;
+        padding: 1.5rem 1.5rem 1rem;
+        border-top: 0.0625rem solid $primary;
     }
 
     h3 {
@@ -105,9 +122,8 @@
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
-        padding: 0 2rem 2rem;
-        border-bottom: 0.0625rem solid $primary;
+        grid-gap: 1.5rem;
+        padding: 0 1.5rem 1.5rem;
 
         &--skillset {
             grid-template-columns: repeat(4, 1fr);
