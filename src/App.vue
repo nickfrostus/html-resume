@@ -23,14 +23,28 @@
                         'Ordered materials for projects weekly.'
                     ]"/>
         </div>
+        <h2>Notable Projects</h2>
+        <div class="container">
+            <notable-project title="Employee Directory"
+                             client="Kalamazoo Valley Community College"
+                             languages="C#, HTML, SCSS, JavaScript, SQL"
+                             description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. This is one half of a larger project that also includes the Department Directory."
+                             link="https://www.nfrost.dev/employee-directory"/>
+            <notable-project title="Department Directory"
+                             client="Kalamazoo Valley Community College"
+                             languages="C#, HTML, SCSS, JavaScript, SQL"
+                             description="The Department Directory is the counterpart to the Employee Directory, meant to assist users with finding the correct department pertaining to a specific topic they need information about at Kalamazoo Valley."
+                             link="https://www.nfrost.dev/department-directory"/>
+        </div>
     </div>
 </template>
 
 <script>
     import Experience from "./components/Experience";
+    import NotableProject from "./components/NotableProject";
 
     export default {
-        components: {Experience}
+        components: {NotableProject, Experience}
     }
 </script>
 
@@ -71,5 +85,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
         padding: 0 2rem 2rem;
+        border-bottom: 0.0625rem solid $primary;
     }
 </style>
