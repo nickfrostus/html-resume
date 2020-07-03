@@ -30,24 +30,24 @@
         <div class="container">
             <notable-project title="Employee Directory"
                              client="Kalamazoo Valley Community College"
-                             languages="C#, HTML, SCSS, JavaScript, SQL"
-                             description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. This is one half of a larger project that also includes the Department Directory."
+                             technologies=".NET, Vue.js, Docker"
+                             description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. The backend API and CLI are written with .NET. The frontend was made with Vue.js."
                              link="https://www.nfrost.dev/employee-directory"/>
-            <notable-project title="Department Directory"
+            <notable-project title="Logos & Branding Site"
                              client="Kalamazoo Valley Community College"
-                             languages="C#, HTML, SCSS, JavaScript, SQL"
-                             description="The Department Directory is the counterpart to the Employee Directory, meant to assist users with finding the correct department pertaining to a specific topic they need information about at Kalamazoo Valley."
-                             link="https://www.nfrost.dev/department-directory"/>
+                             technologies="Vue.js, Docker"
+                             description="The Kalamazoo Valley Branding & Logos site is a convenient solution for distributing relative branding to those that need it; as well as a quick reference for employees about branding choices. It was written entirely with Vue.js."
+                             link="https://www.nfrost.dev/kvcc-logos-branding-site"/>
         </div>
 
         <h2>Skill Set</h2>
         <div class="container container--skillset">
             <skill-set title="Languages"
                        :skills="['JavaScript', 'PHP', 'C#', 'HTML', 'SCSS/SASS', 'SQL']"/>
-            <skill-set title="Deployment"
-                       :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google App Engine']"/>
             <skill-set title="Frameworks"
                        :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Svelte', 'React']"/>
+            <skill-set title="Deployment"
+                       :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google App Engine']"/>
             <skill-set title="CMS"
                        :skills="['Prismic', 'Cockpit', 'WordPress', 'Drupal']"/>
             <skill-set title="Data Analysis"

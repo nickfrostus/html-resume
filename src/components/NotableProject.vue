@@ -2,7 +2,7 @@
     <div>
         <h3>{{ title }}</h3>
         <div class="client">{{ client }}</div>
-        <div class="languages">{{ languages }}</div>
+        <div class="languages">{{ technologies }}</div>
         <p class="description">{{ description }}</p>
         <div class="more-info"><a :href="link" target="_blank" rel="noopener">{{ link }}</a></div>
     </div>
@@ -13,7 +13,7 @@
         props: {
             title: String,
             client: String,
-            languages: String,
+            technologies: String,
             description: String,
             link: String
         }
