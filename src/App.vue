@@ -28,16 +28,16 @@
 
         <h2>Notable Projects</h2>
         <div class="container">
-            <notable-project title="Employee Directory"
+            <notable-project title="Ticketing System"
                              client="Kalamazoo Valley Community College"
-                             technologies=".NET, Vue.js, Docker"
-                             description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. The backend API and CLI are written with .NET. The frontend was made with Vue.js."
-                             link="https://www.nfrost.dev/employee-directory"/>
-            <notable-project title="Logos & Branding Site"
+                             technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
+                             description="The Ticketing System allows authenticated employees to submit requests for help with technical problems or updates to Kalamazoo Valley's website. I designed and wrote the interface, as well as collaborated on definitions for the project."
+                             link=""/>
+            <notable-project title="Staff & Faculty Development"
                              client="Kalamazoo Valley Community College"
-                             technologies="Vue.js, Docker"
-                             description="The Kalamazoo Valley Branding & Logos site is a convenient solution for distributing relative branding to those that need it; as well as a quick reference for employees about branding choices. It was written entirely with Vue.js."
-                             link="https://www.nfrost.dev/kvcc-logos-branding-site"/>
+                             technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
+                             description="The Staff & Faculty Development system is a registration system for internal employee training at Kalamazoo Valley. I did mostly back-end work on this project, but also contributed to user interface design as well."
+                             link=""/>
         </div>
 
         <h2>Skill Set</h2>
