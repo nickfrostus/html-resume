@@ -28,16 +28,16 @@
 
         <h2>Notable Projects</h2>
         <div class="container">
-            <notable-project title="Ticketing System"
+            <notable-project title="Employee Portal"
                              client="Kalamazoo Valley Community College"
                              technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
-                             description="The Ticketing System allows authenticated employees to submit requests for help with technical problems or updates to Kalamazoo Valley's website. I designed and wrote the interface, as well as collaborated on definitions for the project."
-                             link=""/>
-            <notable-project title="Staff & Faculty Development"
+                             description="The Employee Portal absorbs information that was scattered between Kalamazoo Valley's public website, intranet, and student access portal to make all of it easier to find in one convenient place."
+                             link="https://www.nfrost.dev/kvcc-employee-portal"/>
+            <notable-project title="Summit Site"
                              client="Kalamazoo Valley Community College"
-                             technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
-                             description="The Staff & Faculty Development system is a registration system for internal employee training at Kalamazoo Valley. I did mostly back-end work on this project, but also contributed to user interface design as well."
-                             link=""/>
+                             technologies="JavaScript (Vue), HTML, SASS/SCSS"
+                             description="The Summit site is a specific web application containing information about the schedule and keynote speakers for the bi-annual event held at Kalamazoo Valley Community College for employees."
+                             link="https://www.nfrost.dev/kvcc-summit"/>
         </div>
 
         <h2>Skill Set</h2>
