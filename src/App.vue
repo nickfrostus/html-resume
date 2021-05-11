@@ -14,15 +14,15 @@
                         'Provisioned and defined web infrastructure.',
                         'Lead project meetings for feature requirements.'
                     ]"/>
-            <experience company="T-Shirt Printing Plus"
-                        job="Sign Department Manager"
-                        start-date="2013"
-                        end-date="2017"
+            <experience company="Cascade Engineering"
+                        job="Web Developer"
+                        start-date="2020"
+                        end-date="Present"
                         :responsibilities="[
-                        'Designed print documents and assessed customer needs.',
-                        'Modified pricing according to desired margins quarterly.',
-                        'Maintained computers and wide-format printers.',
-                        'Ordered materials for projects weekly.'
+                        'Prototyped website mockups with Figma.',
+                        'Converted legacy sites to newer frameworks.',
+                        'Planned digital implementations of new web content.',
+                        'Fixed and upgraded legacy Drupal instances.'
                     ]"/>
         </div>
 
@@ -33,17 +33,17 @@
                              technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
                              description="The Employee Portal absorbs information that was scattered between Kalamazoo Valley's public website, intranet, and student access portal to make all of it easier to find in one convenient place."
                              link="https://www.nfrost.dev/kvcc-employee-portal"/>
-            <notable-project title="Summit Site"
-                             client="Kalamazoo Valley Community College"
-                             technologies="JavaScript (Vue), HTML, SASS/SCSS"
-                             description="The Summit site is a specific web application containing information about the schedule and keynote speakers for the bi-annual event held at Kalamazoo Valley Community College for employees."
-                             link="https://www.nfrost.dev/kvcc-summit"/>
+            <notable-project title="Digital Masterpiece"
+                             client="Personal LLC"
+                             technologies="Golang (Hugo), JavaScript, HTML, SASS/SCSS"
+                             description="I have a personal LLC for freelance projects. When I started my business, I had a few goals in mind for web development, performance, style, and accessibility. I do my best incorporate all these of those points in any work I do on the web."
+                             link="https://www.digital-masterpiece.com"/>
         </div>
 
         <h2>Skill Set</h2>
         <div class="container container--skillset">
             <skill-set title="Languages"
-                       :skills="['JavaScript', 'PHP', 'C#', 'HTML', 'SCSS/SASS', 'SQL']"/>
+                       :skills="['JavaScript', 'PHP', 'C#', 'Golang', 'HTML', 'SCSS/SASS/CSS', 'SQL']"/>
             <skill-set title="Frameworks"
                        :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Svelte', 'React']"/>
             <skill-set title="Deployment"
@@ -57,7 +57,7 @@
             <skill-set title="Dependencies"
                        :skills="['Git Submodules', 'Composer', 'NuGet', 'NPM']"/>
             <skill-set title="Programming"
-                       :skills="['Paradigm Agnostic', 'Accepting of Criticism', 'Collaboration Desired', 'Code Reviews Desired']"/>
+                       :skills="['Paradigm Agnostic', 'Collaboration Desired', 'Code Reviews Desired', 'Accepting of Criticism']"/>
         </div>
 
         <h2>Education</h2>
