@@ -28,22 +28,22 @@
 
     <h2>Notable Projects</h2>
     <div class="container">
-      <notable-project title="Employee Portal"
+      <notable-project title="Course Schedule"
                        client="Kalamazoo Valley Community College"
-                       technologies="PHP (Laravel), HTML, SASS/SCSS, JavaScript"
-                       description="The Employee Portal absorbs information that was scattered between Kalamazoo Valley's public website, intranet, and student access portal to make all of it easier to find in one convenient place."
-                       link="https://www.nfrost.dev/kvcc-employee-portal"/>
-      <notable-project title="Kalamazoo Valley Sign-in Application"
+                       technologies="Vue.js, .NET, SASS/SCSS, Tailwind CSS"
+                       description="The Kalamazoo Valley Course Schedule is an application that displays for-credit courses offered at Kalamazoo Valley Community College; and allows users to filter results based on relevant criteria."
+                       link="https://www.nfrost.dev/kvcc-course-schedule"/>
+      <notable-project title="Employee Directory"
                        client="Kalamazoo Valley Community College"
-                       technologies="JavaScript (Vue), HTML, SASS/SCSS"
-                       description="The sign-in application is an intermediary web page to get users to where they need to go. Also displays notices to users about outages, upcoming downtime, or applications updates/events before they happen."
-                       link="https://www.nfrost.dev/kvcc-sign-in"/>
+                       technologies="Vue.js, .NET, SASS/SCSS, Tailwind CSS"
+                       description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. This is one half of a larger project that also includes the Department Directory."
+                       link="https://www.nfrost.dev/kvcc-employee-directory"/>
     </div>
 
     <h2>Skill Set</h2>
     <div class="container container--skillset">
       <skill-set title="Languages"
-                 :skills="['JavaScript', 'PHP', 'C#', 'Golang', 'HTML', 'SCSS/SASS/CSS', 'SQL']"/>
+                 :skills="['JavaScript', 'C#', 'PHP', 'Golang', 'HTML', 'SCSS/SASS/CSS', 'SQL']"/>
       <skill-set title="Frameworks"
                  :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Svelte', 'React']"/>
       <skill-set title="Deployment"

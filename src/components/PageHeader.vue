@@ -18,7 +18,7 @@
                 <font-awesome-icon :icon="['far', 'envelope']" class="nav__link__icon"/>
                 <span>nfrost.dev@gmail.com</span>
             </a>
-            <a href="https://www.nfrost.dev/" class="nav__link">
+            <a href="https://github.com/nfrostdev" class="nav__link">
                 <font-awesome-icon :icon="['fab', 'github']" class="nav__link__icon"/>
                 <span>github.com/nfrostdev</span>
             </a>
