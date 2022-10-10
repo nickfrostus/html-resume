@@ -4,60 +4,60 @@
 
     <h2>Experience</h2>
     <div class="container container--experience">
+      <experience company="Hippo Manager Software, Inc."
+                  job="Software Developer"
+                  start-date="2022"
+                  end-date="Present"
+                  :responsibilities="[
+                        'Refined reporting architecture to be cloud-based.',
+                        'Quality assurance, troubleshooting, & bug fixes.',
+                        'Implemented new features according to specifications.',
+                        'Took part in complex team problem solving.'
+                    ]"/>
       <experience company="Kalamazoo Valley Community College"
                   job="Web Developer"
                   start-date="2017"
-                  end-date="Present"
+                  end-date="2022"
                   :responsibilities="[
                         'Wrote and maintained web applications from scratch.',
-                        'Defined CI/CD workflow with Github Actions.',
+                        'Defined CI/CD workflow with Github Actions/Docker.',
                         'Provisioned and defined web infrastructure.',
                         'Lead project meetings for feature requirements.'
-                    ]"/>
-      <experience company="Cascade Engineering"
-                  job="Web Developer"
-                  start-date="2020"
-                  end-date="Present"
-                  :responsibilities="[
-                        'Prototyped website mockups with Figma.',
-                        'Converted legacy sites to newer frameworks.',
-                        'Planned digital implementations of new web content.',
-                        'Fixed and upgraded legacy Drupal instances.'
                     ]"/>
     </div>
 
     <h2>Notable Projects</h2>
     <div class="container">
+      <notable-project title="Hippo Manager 2.0"
+                       client="Hippo Manager Software, Inc."
+                       technologies="Vue.js, Laravel, SASS/SCSS, Tailwind CSS"
+                       description="Hippo Manager is a full suite of software for managing veterinary clinics/practices. This cloud-based software does everything you need to manage a veterinary business, billing, client management, scheduling, etc."
+                       link="https://www.nfrost.dev/hippo-manager"/>
       <notable-project title="Course Schedule"
                        client="Kalamazoo Valley Community College"
                        technologies="Vue.js, .NET, SASS/SCSS, Tailwind CSS"
                        description="The Kalamazoo Valley Course Schedule is an application that displays for-credit courses offered at Kalamazoo Valley Community College; and allows users to filter results based on relevant criteria."
                        link="https://www.nfrost.dev/kvcc-course-schedule"/>
-      <notable-project title="Employee Directory"
-                       client="Kalamazoo Valley Community College"
-                       technologies="Vue.js, .NET, SASS/SCSS, Tailwind CSS"
-                       description="The Kalamazoo Valley Employee Directory is a searchable database of current employees at Kalamazoo Valley Community College. This is one half of a larger project that also includes the Department Directory."
-                       link="https://www.nfrost.dev/kvcc-employee-directory"/>
     </div>
 
     <h2>Skill Set</h2>
     <div class="container container--skillset">
       <skill-set title="Languages"
-                 :skills="['JavaScript', 'C#', 'PHP', 'Golang', 'HTML', 'SCSS/SASS/CSS', 'SQL']"/>
+                 :skills="['JavaScript', 'C#', 'PHP', 'Golang', 'HTML', 'SCSS/SASS/CSS', 'SQL & GraphQL',]"/>
       <skill-set title="Frameworks"
                  :skills="['Laravel/Lumen', '.NET', 'Vue/Nuxt', 'Hugo', 'Svelte', 'React']"/>
-      <skill-set title="Deployment"
-                 :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google App Engine']"/>
+      <skill-set title="Infrastructure"
+                 :skills="['Docker', 'Github Actions', 'Nginx', 'Apache', 'Firebase', 'Google Cloud Platform', 'Amazon Web Services']"/>
       <skill-set title="CMS"
                  :skills="['Prismic', 'Cockpit', 'WordPress', 'Drupal']"/>
       <skill-set title="Data Analysis"
                  :skills="['Google Analytics', 'SEO', 'Database Normalization', 'Design Documentation']"/>
       <skill-set title="Applications"
-                 :skills="['JetBrains IDEs', 'Adobe Photoshop', 'Adobe Illustrator', 'Microsoft Office']"/>
+                 :skills="['JetBrains IDEs', 'Adobe Photoshop', 'Adobe Illustrator', 'Microsoft Office', 'Figma']"/>
       <skill-set title="Dependencies"
                  :skills="['Git Submodules', 'Composer', 'NuGet', 'NPM']"/>
-      <skill-set title="Programming"
-                 :skills="['Paradigm Agnostic', 'Collaboration Desired', 'Code Reviews Desired', 'Accepting of Criticism']"/>
+      <skill-set title="Platforms"
+                 :skills="['Github', 'Basecamp', 'Trello', 'Sentry', 'Jira']"/>
     </div>
 
     <h2>Education</h2>
@@ -80,7 +80,7 @@ import SkillSet from "./components/SkillSet";
 import Education from "./components/Education";
 
 export default {
-  components: { PageHeader, Education, SkillSet, NotableProject, Experience }
+  components: {PageHeader, Education, SkillSet, NotableProject, Experience}
 }
 </script>
 
