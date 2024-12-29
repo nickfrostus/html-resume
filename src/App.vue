@@ -5,17 +5,17 @@
     <h2>Experience</h2>
     <div class="container container--experience">
       <experience company="Hippo Manager Software, Inc."
-                  job="Software Developer"
+                  job="Lead Software Engineer"
                   start-date="2022"
                   end-date="Present"
                   :responsibilities="[
-                        'Refined reporting architecture to be cloud-based.',
-                        'Quality assurance, troubleshooting, & bug fixes.',
-                        'Implemented new features according to specifications.',
-                        'Took part in complex team problem solving.'
+                        'Managed infrastructure and other administrative level tasks.',
+                        'Saved the company in excess of $6,000 monthly in AWS.',
+                        'Made product direction decisions with team.',
+                        'Worked directly with clients to get feature feedback.'
                     ]"/>
       <experience company="Kalamazoo Valley Community College"
-                  job="Web Developer"
+                  job="Senior Web Developer"
                   start-date="2017"
                   end-date="2022"
                   :responsibilities="[
